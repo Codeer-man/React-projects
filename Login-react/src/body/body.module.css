@@ -1,0 +1,80 @@
+
+.body{
+    /* background-color: red; */
+    width: 73%;
+    height: 55vh;
+    margin: 40px auto;
+    display: flex;
+    gap: 60px;
+}
+.left_side{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px; 
+    cursor: pointer;
+    width: 260px;
+    border-radius: 5px;
+}
+.top_btn{
+    display: flex;
+    gap:32px;
+    /* background-color: blue; */
+}
+.outline_btn{
+    width: 100%;
+    font-size: 20px;
+    padding: 5px; 
+    cursor: pointer;
+   
+    background-color: white;
+    border-radius: 5px;
+}
+.pic{
+    height: 55vh;
+}
+.form_container{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.form_container input{
+    width: 100%;
+    border: 2px solid rgb(90, 78, 78);;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 7px; 
+    /* position: relative; */
+}
+.form_container label{
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    background-color: white;
+    padding: 0 5px;
+    font-size: 14px;
+}
+.submit{
+    width: 30%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.text{
+    height: 80px;
+}
+.newForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

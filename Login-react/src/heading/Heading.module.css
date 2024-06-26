@@ -1,0 +1,17 @@
+.head{
+    /* background-color: red; */
+    width: 75%;
+    margin: 0 auto;
+    height: 20vh;
+    margin-top: 2%;
+}
+.head h1{
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.head p{
+    padding-right: 160px;
+    line-height: 22px;
+    font-weight: 500;
+}

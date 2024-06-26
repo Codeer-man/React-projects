@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+   
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+    /* background-color: red; */
+}
+
+.ul li {
+    cursor: pointer;
+    font-family: 800;
+    font-size: 20px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 70px;
+    /* background-color: red; */
+}
