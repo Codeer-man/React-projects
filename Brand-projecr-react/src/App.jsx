@@ -7,7 +7,7 @@ function App() {
 
   return (
     
-    <div>
+    <div >
       <Nav/>
       <header className="head">
 
