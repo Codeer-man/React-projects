@@ -1,10 +1,10 @@
 import styled from "styled-components"
 
-const ScoreCounter = () => {
+const ScoreCounter = ({score}) => {
     return (
         <Score>
             <nav>
-                <h1>0</h1>
+                <h1>{score}</h1>
                 <p>Total score</p>
             </nav>
         </Score>

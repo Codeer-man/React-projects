@@ -44,7 +44,7 @@ const calculator = () => {
           className={Styles.box}>{value}</div>
         )}
       </div>
-        <button onClick={reset}>reset</button>
+        <button className={Styles.btn} onClick={reset}>reset</button>
     </div>
 
   )

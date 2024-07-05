@@ -1,5 +1,5 @@
 {
-  "name": "dice-game",
+  "name": "foodyzone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,11 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "css": "^3.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "styled-components": "^6.1.11",
-    "vanilla": "^0.0.5"
+    "styled-components": "^6.1.11"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -25,8 +23,5 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "vite": "^5.3.1"
-  },
-  "resolutions": {
-    "styled-components": "^5"
   }
 }

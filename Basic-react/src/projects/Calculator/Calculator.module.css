@@ -35,7 +35,7 @@ p{
     font-size: 22px;
     background-color: white;
 }
-button{
+.btn{
     background-color: black;
     color: white;
     border: 3px solid white;
