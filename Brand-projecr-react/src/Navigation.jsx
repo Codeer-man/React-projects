@@ -1,11 +1,13 @@
 import Logo from './assets/logo.jpg'
 import './App.css'
 
-function Nav(){
+function Nav() {
 
     return (
         <>
+
             <nav className="navigation">
+                
                 <div>
                     <img src={Logo} alt="logo" className='logo' />
                 </div>

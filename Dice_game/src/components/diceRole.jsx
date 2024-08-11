@@ -2,31 +2,30 @@
 import { useState } from 'react'
 import styled from 'styled-components'
 
-const diceRole = ({diceRoll,randomNum}) => {
-  const [rule,setRule] = useState()
-  const [hide,setHide] = useState()
-  
-  function Click_rule(){
+const diceRole = ({ diceRoll, randomNum }) => {
+  const [rule, setRule] = useState()
+  const [hide, setHide] = useState()
+
+  function Click_rule() {
     setRule("Please select a number before rolling the dice. If the nice number and selected number is same you will get 4 points otherwise you will lose 1 points. Good Luck!")
-    if(!setHide)
-      {hide}
+    if (!setHide) { hide }
   }
-//  console.log(diceRoll)
-  
+  //  console.log(diceRoll)
+
   return (
     <DiceContainer>
       <div onClick={randomNum}>
-         <img src={`./public/img/dice/dice_${diceRoll}.png`} alt="Dice picture"  />
+        <img src={`./public/img/dice/dice_${diceRoll}.png`} alt="Dice picture" />
       </div>
-        <p>Click on dice to roll</p>
-        
-        <button onClick={Click_rule}>Rules</button>
-        <p setHide={hide} className='rule'>{rule}</p>
+      <p>Click on dice to roll</p>
+
+      <button onClick={Click_rule}>Rules</button>
+      <p setHide={hide} className='rule'>{rule}</p>
     </DiceContainer>
   )
 }
 
-export default diceRole  
+export default diceRole
 
 const DiceContainer = styled.div`
     display: flex;

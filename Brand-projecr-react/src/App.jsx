@@ -2,6 +2,7 @@ import './App.css'
 import Shoe from './assets/shoe.png'
 import shop from './assets/shop.png'
 import Nav from './Navigation.jsx'
+import { motion } from 'framer-motion'
 
 function App() {
 
