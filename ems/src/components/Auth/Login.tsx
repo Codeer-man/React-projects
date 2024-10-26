@@ -1,19 +1,18 @@
 import { useState } from "react";
 
-export default function Login() {
+export default function Login({ handleLogin }: { handleLogin: (email: string, password: string) => void }) {
   const [email, setemail] = useState("");
   const [password, Setpassword] = useState("");
 
   const submitHandler = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("EMail is :", email);
-    console.log("Password is :", password);
+    handleLogin(email,password)
     Setpassword("");
     setemail("");
   };
 
   return (
-    <div className="flex items-center justify-center h-screen w-screen">
+    <div className="flex items-center justify-center h-screen ">
       <div className="border-2 border-emerald-600 p-20">
         <form
           action=""
